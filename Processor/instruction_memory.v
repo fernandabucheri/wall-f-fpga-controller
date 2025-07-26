@@ -27,12 +27,12 @@ parameter ADDR_WIDTH=12 /* para endereçar até 4096 posições */)
         
       // Carrega as particoes de controle do SO
 //    $readmemb("main_so.txt", rom, 1024, 1035);             // Main SO
-      $readmemb("main_so_uart.txt", rom, 1024, 1035);        // Main SO - sempre sem preempcao
+      $readmemb("main_so_v2.txt", rom, 1024, 1035);          // Main SO - sempre sem preempcao
       $readmemb("context_switch.txt", rom, 1124, 1189);      // Troca de contexto
       $readmemb("proc_handlers.txt", rom, 1192, 1231);       // Handlers dos processos
       $readmemb("proc_manager.txt", rom, 1250);              // Chama gerenciador de processos
 //    $readmemb("non_preemptive.txt", rom, 1830, 1873);      // Execução sem preempção
-	  $readmemb("non_preemptive_uart.txt", rom, 1830, 1873); // Execução sem preempção - executa sempre programa 1
+	  $readmemb("non_preemptive_v2.txt", rom, 1830, 1873);   // Execução sem preempção - executa sempre programa 1
 	  $readmemb("preemptive.txt", rom, 1900, 1914);          // Execução com preempção
 	  $readmemb("init.txt", rom, 1920, 1930);                // Inicializa ram e vai para main SO
 	end
