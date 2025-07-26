@@ -134,3 +134,23 @@ Foto do robô **WALL-F** com todas as conexões físicas montadas, demonstrando 
 <br>
 
 ![Demonstração do robô em funcionamento](assets/robo_demonstracao.gif)
+
+
+## ✏️ Autoras
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/gabrielaverza">
+        <img src="https://avatars.githubusercontent.com/u/84354639?v=4" width="100px;" alt="Gabriela Verza"/><br>
+        <sub><b>Gabriela Verza</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/fernandabucheri">
+        <img src="https://avatars.githubusercontent.com/u/49451585?v=4" width="100px;" alt="Fernanda Bucheri"/><br>
+        <sub><b>Fernanda Bucheri</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
