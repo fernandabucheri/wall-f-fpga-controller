@@ -7,7 +7,7 @@ module SEG_HEX
 	);
 
 input	     [3:0]    iDIG;			
-output	  [7:0]	  oHEX_D;   
+output	     [7:0]	  oHEX_D;   
 
 
 //=======================================================
