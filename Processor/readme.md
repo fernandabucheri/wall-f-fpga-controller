@@ -10,7 +10,7 @@ Esta pasta contém **somente os arquivos modificados** do sistema computacional 
 * **SEG\_HEX.v**
   Também proveniente do manual da DE2-115, este módulo foi **adaptado**. Em vez de gerar sinais para o display de 7 segmentos, agora traduz os valores hexadecimais recebidos em seus equivalentes binários, facilitando a integração com a arquitetura do sistema.
 
-* **inputFPGA.v**
+* **InputFPGA.v**
   Originalmente recebia entradas das chaves da FPGA. Foi **modificado** para que a entrada agora seja fornecida pelo sinal do controle IR decodificado, tornando possível o uso do controle remoto como dispositivo de entrada.
 
 * **clock\_divider.v**
